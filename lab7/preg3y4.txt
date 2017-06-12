@@ -1,0 +1,24 @@
+\paragraph{Para cada algoritmo, Notaci\'on asintotica}
+
+\begin{table}
+ \begin{tabular}{|c|c|c|}
+  \hline
+  algoritmo      & mejor caso & peor caso \\
+  selection sort &    n       &    n^2    \\\hline
+  insertion sort &    n       &    n^2    \\\hline
+  merge     sort &    1       &   n(lgn)  \\\hline
+  \hline
+ \end{tabular}
+\end{table}
+
+\paragraph{Secuencias si son Heap}
+
+\begin{itemize}
+    \item[a] Es un max-Heap;
+    \item[b] No es un max-Heap;
+    \begin{itemize}
+        \item El nodo 27 tiene por hijos a 28 y a 25;
+        \item El hijo 28 es mayor q el padre 27;
+        \item por lo q no cumple la condicion de max-Heap;
+    \end{itemize}
+\end{itemize}
